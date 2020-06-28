@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>"My Restaurant"</title>
+<style>
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}	
+h1{
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+section {
+	float: left;
+	position: relative;
+	margin-top: 100px;
+  	border: 1px solid black;
+  	background-color: grey;
+  	margin: 10px;
+  	height: 140px;
+  	padding-left: 10px;
+}
+section > p {
+	clear: right;
+}
+.row{
+	width: 100%;
+}
+section > title1 {
+	font-size: 20px;
+	background-color: #FF6347;
+	float: right;
+	top: 1px;
+	right: 1px;
+	position: relative;
+	outline: 1px solid black;
+    margin-top: 0px;
+} 
+section > title2 {
+	font-size: 20px;
+	background-color: #FFDAB9;
+	float: right;
+	top: 1px;
+	right: 1px;
+	position: relative;
+	outline: 1px solid black;
+    margin-top: 0px;
+} 
+section > title3 {
+	font-size: 20px;
+	background-color: #FFC0CB;
+	float: right;
+	top: 1px;
+	right: 1px;
+	position: relative;
+	outline: 1px solid black;
+    margin-top: 0px;
+} 
+@media (min-width: 992px)
+{
+  .col-lg-4{
+  	float: left;
+  	width: 33.33%
+  }
+}
+@media (min-width: 768px) and (max-width: 991px)
+{
+  .col-md-6 {
+  	float: left;
+  	width: 50%
+  }
+  .col-md-12 {
+  	float: left;
+  	width: 100%;
+  }
+}
+@media (max-width: 767px)
+{
+  .col-sm-12 {
+  	float: right;
+  	width: 100%
+  }
+}
+</style>
+</head>
+
+<body>
+	<h1>Our Menu</h1>
+
+	<div class="row">
+		<div class="col-lg-4 col-md-6 col-sm-12"><section><title1>Chicken Tikka</title1><p>It is traditionally small pieces of boneless chicken baked using skewers on a brazier called angeethi after marinating in Indian spices and dahi (yogurt)—essentially a boneless version of tandoori chicken. ... A chicken tikka sizzler is a dish where chicken tikka is served on a heated plate with onions.</p></section></div>
+		<div class="col-lg-4 col-md-6 col-sm-12"><section><title2>Karahi</title2><p>Karahi (pronounced kar-ah-hee) is the Hindi name for a two handled, deep cooking vessel that looks like a wok with steeper sides. This vessel, which may also be called a kadai, korai, or kadhi, is used in many Indian and Pakistani kitchens. They can be quite pretty!</p></section></div>
+		<div class="col-lg-4 col-md-12 col-sm-12"><section><title3>Korma</title3><p>Korma or Qorma is a dish originating in the Indian subcontinent, consisting of meat or vegetables braised with yogurt or cream, water or stock, and spices to produce a thick sauce or glaze.</p></section></div>
+	</div>
+</body>
+</html>
