@@ -1,0 +1,32 @@
+body {
+	background-color: #808080;
+}
+#header-nav {
+		background-color: #9400D3;
+		border: 0;
+		border-radius: 0;
+	}
+ .navbar-brand h1 {
+		font-style: italic;
+		font-size: 25px;
+        color: black;
+        margin-bottom: 0;
+        margin-top: 0;
+	}
+	#nav-list {
+  margin-top: 10px;
+}
+#nav-list .visible-xs {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+ button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+section h1 {
+	font-size: 20px;
+}
+.container section {
+	background-color: #D3D3D3;
+}
